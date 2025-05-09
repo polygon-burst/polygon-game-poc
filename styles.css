@@ -4,8 +4,11 @@ canvas {
 }
 
 body {
-    font-family: "Chakra Petch", sans-serif;
+    background-image: url("background.png");
+    background-repeat: repeat;
     background-color: #222222;
+    color: #aaaaaa;    
+    font-family: "Chakra Petch", sans-serif;
 }
 
 p {
