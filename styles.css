@@ -13,8 +13,7 @@ body {
 }
 
 p {
-    text-align: center;
-    color: #eeeeee;
+    padding: 4px 0;
 }
 
 a {
@@ -23,8 +22,7 @@ a {
 }
 
 #bodydiv {
-    width: 1300px;
-    height: 100dvh; 
+    width: 1300px; 
     margin: 0 auto;
     padding: 0px 10px;
     background-color: #18181c;
