@@ -4,6 +4,7 @@ canvas {
 }
 
 body {
+  margin: 0;
   padding: 20px 0;
   background-image: url("background.png");
   background-repeat: repeat;
@@ -16,7 +17,7 @@ p {
 #body-div { 
   width: 1280px; 
   margin: 0 auto; 
-  padding: 20px 0;
+  padding: 0;
   background-color: #18181c;
   color: #e5f4ff;   
   font-family: "Chakra Petch", sans-serif;
