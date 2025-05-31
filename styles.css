@@ -4,8 +4,7 @@ canvas {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  padding: 20px 0;
   background-image: url("background.png");
   background-repeat: repeat;
 }
