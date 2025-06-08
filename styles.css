@@ -10,9 +10,7 @@ body {
   background-repeat: repeat;
 }
 
-p {
-  padding: 4px 0;
-}
+p { padding: 4px 0; }
 
 #body-div { 
   width: 1280px; 
@@ -22,6 +20,7 @@ p {
   color: #e5f4ff;   
   font-family: "Chakra Petch", sans-serif;
   font-size: 16px; 
+  font-style: italic;
   text-align: left;
 }
 
@@ -35,10 +34,11 @@ p {
   padding: 0 20px;  
 }
 
-#buy-button {
-  height: 36px;
+#donate-button {
+  height: 32px;
   border: none;
   border-radius: 4px;
+  padding: 0px 12px 3px 12px;
   background-color: #9fd3ff;
   font-size: 16px;
   cursor: pointer;
