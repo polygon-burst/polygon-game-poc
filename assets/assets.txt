@@ -1,7 +1,7 @@
 d:assets:assets:0:application/unknown:1
 d:polygons:polygons:0:application/unknown:1
 b:polygons/f4.polydata:polygons/f4-eeb2ec0d5ad9ca95947c7d742f046ab3.polydata:86:application/unknown:1
-t:assets.txt:assets-a80164e34df876f715cd8d0fa9ebb738.txt:560:text/plain:1
+t:assets.txt:assets-ddf564f26c7509928592a4037c1f59fe.txt:415:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
 a:sounds/confirmation_3.ogg:sounds/confirmation_3-41a03cd6b80886d0beaa6045d45b4bed.ogg:9535:audio/ogg:1
@@ -15,15 +15,10 @@ a:sounds/confirmation_0.ogg:sounds/confirmation_0-ca5d476bb550e2640795745fc5ac8e
 a:sounds/ka50_gun_1.ogg:sounds/ka50_gun_1-c2c05365816e940fd0ea340777443dad.ogg:4374:audio/ogg:1
 a:sounds/ah1z_gun_2.ogg:sounds/ah1z_gun_2-ed366a5842ab792501842412202e6a67.ogg:4376:audio/ogg:1
 d:graphics:graphics:0:application/unknown:1
-t:graphics/textures.atlas:graphics/textures-ebb545e6e12210ee61ced41c1298e4e9.atlas:326:application/unknown:1
-i:graphics/chakra_petch_64.png:graphics/chakra_petch_64-887b831478c55108da1ddd230e53701c.png:30220:image/png:1
+t:graphics/textures.atlas:graphics/textures-2d66ebc3bfd28ec8f1b692f24a2303ea.atlas:207:application/unknown:1
 t:graphics/chakra_petch_54.fnt:graphics/chakra_petch_54-6a8a9474d9e911bd348a8d63c1ac6e47.fnt:11131:application/unknown:1
-i:graphics/chakra_petch_58.png:graphics/chakra_petch_58-a242344db9602206d0a8c8efbfa17ea1.png:31724:image/png:1
-i:graphics/textures.png:graphics/textures-d467606e47dc79996280fcca70a597d3.png:232975:image/png:1
+i:graphics/textures.png:graphics/textures-a00000cf85b8fcc94f584dbaf1aaf6cc.png:110259:image/png:1
 t:graphics/alpha_prota_64.fnt:graphics/alpha_prota_64-bb16ee407d4e0579986421dd8677d1f9.fnt:11014:application/unknown:1
-t:graphics/chakra_petch_60.fnt:graphics/chakra_petch_60-ca11558c2176421b2ecc39873f5dbfe4.fnt:11131:application/unknown:1
-t:graphics/chakra_petch_64.fnt:graphics/chakra_petch_64-506f68ca81cc00d6e8d3d6f52b1d168c.fnt:11132:application/unknown:1
-t:graphics/chakra_petch_58.fnt:graphics/chakra_petch_58-5ef956bed50bb3dd342382117ec1fd2c.fnt:11131:application/unknown:1
 i:libgdx.png:libgdx-3708f33d27b8977682d1bc8504e6a821.png:2458:image/png:1
 d:music:music:0:application/unknown:1
 a:music/in_the_club.ogg:music/in_the_club-5c8464ed0a5f67299f52ed8b140e39a6.ogg:1270246:audio/ogg:1

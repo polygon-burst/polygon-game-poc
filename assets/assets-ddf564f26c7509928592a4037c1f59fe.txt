@@ -1,10 +1,5 @@
 graphics/alpha_prota_64.fnt
 graphics/chakra_petch_54.fnt
-graphics/chakra_petch_58.fnt
-graphics/chakra_petch_58.png
-graphics/chakra_petch_60.fnt
-graphics/chakra_petch_64.fnt
-graphics/chakra_petch_64.png
 graphics/textures.atlas
 graphics/textures.png
 libgdx.png

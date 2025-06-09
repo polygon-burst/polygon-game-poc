@@ -19,8 +19,7 @@ p { padding: 4px 0; }
   background-color: #18181c;
   color: #e5f4ff;   
   font-family: "Chakra Petch", sans-serif;
-  font-size: 16px; 
-  font-style: italic;
+  font-size: 17px; 
   text-align: left;
 }
 
@@ -40,6 +39,6 @@ p { padding: 4px 0; }
   border-radius: 4px;
   padding: 0px 12px 3px 12px;
   background-color: #9fd3ff;
-  font-size: 16px;
+  font-size: 17px;  
   cursor: pointer;
 }
