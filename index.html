@@ -4,7 +4,7 @@
     <title>Polygon Game [ Proof of Concept ] by polygon_burst</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta id="gameViewport" name="viewport" content="width=device-width initial-scale=1">
-    <meta name="keywords" content="bullet-hell, libgdx">    
+    <meta name="keywords" content="arcade, bullet, gamepad, minimalist, nonlinear, prototype, shoot, survivor, time, vector">    
     <meta property="og:title" content="Polygon Game [ Proof of Concept ] by polygon_burst">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
@@ -23,11 +23,17 @@
         ... or rather just download game without the love. ¯\_(ツ)_/¯ </button></p>-->
         <h1>WORK IN PROGRESS</h1>               
         <p><strong>Desktop and HTML port of PoC Polygon Game (made with LibGDX).</strong></p>          
-        <p>The controls are as follows:<br/>
-        - Arrow Keys / DPad / Analog Stick : <strong>Movement</strong><br/>
-        - W & S & Space & Enter Key / A & X Button : <strong>Toggle Cloak</strong><br/>
-        - A & D & Backspace Key / B & Y Button : <strong>Reset HPs</strong><br/>
-        - Escape & Ctrl Key / Start & Back Button : <strong>Menu</strong></p>
+        <p>The Main controls are as follows:<br/>
+        - Mouse Click: <strong>Select, Increase</strong><br/>
+        - Arrow Keys / DPad, Analog Stick : <strong>Step, Increase/Decrease</strong><br/>
+        - W, S, Space, Enter Key / A, X Button : <strong>Ok, Increase</strong><br/>
+        - A, D, Backspace Key / B, Y Button : <strong>Cancel, Decrease</strong><br/>
+        - Escape, Ctrl Key / Start, Back Button : <strong>Settings, Back</strong></p>
+        <p>Game controls:<br/>
+        - Arrow Keys / DPad, Analog Stick : <strong>Movement</strong><br/>
+        - W, S, Space, Enter Key / A, X Button : <strong>Toggle Cloak</strong><br/>
+        - A, D, Backspace Key / B, Y Button : <strong>Reset HPs</strong><br/>
+        - Escape, Ctrl Key / Start, Back Button : <strong>Menu</strong></p>
       </div>
     </div>      
   </body>
@@ -37,14 +43,14 @@
     Itch.attachBuyButton(document.getElementById("donate-button"), { user: "polygon-burst", game: "polygon-game-poc" });
   </script>
   <script>
-    function handleMouseDown(evt) {
-      evt.preventDefault();
-      evt.stopPropagation();
+    function handleMouseDown(event) {
+      event.preventDefault();
+      event.stopPropagation();
       window.focus();
     }
-    function handleMouseUp(evt) {
-      evt.preventDefault();
-      evt.stopPropagation();
+    function handleMouseUp(event) {
+      event.preventDefault();
+      event.stopPropagation();
     }    
     document.addEventListener('contextmenu', event => event.preventDefault());
     document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);

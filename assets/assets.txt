@@ -1,7 +1,7 @@
 d:assets:assets:0:application/unknown:1
 d:polygons:polygons:0:application/unknown:1
 b:polygons/f4.polydata:polygons/f4-eeb2ec0d5ad9ca95947c7d742f046ab3.polydata:86:application/unknown:1
-t:assets.txt:assets-ddf564f26c7509928592a4037c1f59fe.txt:415:text/plain:1
+t:assets.txt:assets-45b821213232197b4d447b98508754f5.txt:442:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
 a:sounds/confirmation_3.ogg:sounds/confirmation_3-41a03cd6b80886d0beaa6045d45b4bed.ogg:9535:audio/ogg:1
@@ -15,9 +15,10 @@ a:sounds/confirmation_0.ogg:sounds/confirmation_0-ca5d476bb550e2640795745fc5ac8e
 a:sounds/ka50_gun_1.ogg:sounds/ka50_gun_1-c2c05365816e940fd0ea340777443dad.ogg:4374:audio/ogg:1
 a:sounds/ah1z_gun_2.ogg:sounds/ah1z_gun_2-ed366a5842ab792501842412202e6a67.ogg:4376:audio/ogg:1
 d:graphics:graphics:0:application/unknown:1
-t:graphics/textures.atlas:graphics/textures-2d66ebc3bfd28ec8f1b692f24a2303ea.atlas:207:application/unknown:1
-t:graphics/chakra_petch_54.fnt:graphics/chakra_petch_54-6a8a9474d9e911bd348a8d63c1ac6e47.fnt:11131:application/unknown:1
-i:graphics/textures.png:graphics/textures-a00000cf85b8fcc94f584dbaf1aaf6cc.png:110259:image/png:1
+t:graphics/textures.atlas:graphics/textures-4355b15c5d6604745ab08610fa84720f.atlas:249:application/unknown:1
+t:graphics/alpha_prota_48.fnt:graphics/alpha_prota_48-9c94035a44f62b3edbaf6b4c93d0cf6b.fnt:8126:application/unknown:1
+t:graphics/alpha_prota_54.fnt:graphics/alpha_prota_54-1f0577a51e4457dc229f80b25f7f5bd7.fnt:8126:application/unknown:1
+i:graphics/textures.png:graphics/textures-e14bc52be56670033bd19a6909c8683c.png:120784:image/png:1
 t:graphics/alpha_prota_64.fnt:graphics/alpha_prota_64-bb16ee407d4e0579986421dd8677d1f9.fnt:11014:application/unknown:1
 i:libgdx.png:libgdx-3708f33d27b8977682d1bc8504e6a821.png:2458:image/png:1
 d:music:music:0:application/unknown:1

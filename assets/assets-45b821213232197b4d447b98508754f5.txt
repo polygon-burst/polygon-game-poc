@@ -1,5 +1,6 @@
+graphics/alpha_prota_48.fnt
+graphics/alpha_prota_54.fnt
 graphics/alpha_prota_64.fnt
-graphics/chakra_petch_54.fnt
 graphics/textures.atlas
 graphics/textures.png
 libgdx.png
