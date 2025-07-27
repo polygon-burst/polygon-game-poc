@@ -2,8 +2,8 @@ d:assets:assets:0:application/unknown:1
 d:polygons:polygons:0:application/unknown:1
 b:polygons/f4.polydata:polygons/f4-eeb2ec0d5ad9ca95947c7d742f046ab3.polydata:86:application/unknown:1
 d:texts:texts:0:application/unknown:1
-b:texts/guide.properties:texts/guide-3ebf000d3f0d3bb9186507765fb1c21b.properties:563:application/unknown:1
-b:texts/intros.properties:texts/intros-85a5115ae6c49f23260223be8dcd8e06.properties:1248:application/unknown:1
+b:texts/guide.properties:texts/guide-9f54e7caad8d2d694e32560eac8172a5.properties:689:application/unknown:1
+b:texts/intros.properties:texts/intros-7483254b0eb8a0f48b27e9553dfcefcf.properties:93:application/unknown:1
 t:assets.txt:assets-228a81807a7883335c8438bbc62ed76e.txt:519:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
