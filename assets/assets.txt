@@ -2,9 +2,9 @@ d:assets:assets:0:application/unknown:1
 d:polygons:polygons:0:application/unknown:1
 b:polygons/f4.polydata:polygons/f4-eeb2ec0d5ad9ca95947c7d742f046ab3.polydata:86:application/unknown:1
 d:texts:texts:0:application/unknown:1
-b:texts/guide.properties:texts/guide-9f54e7caad8d2d694e32560eac8172a5.properties:689:application/unknown:1
+b:texts/guide.properties:texts/guide-438a77fd1e7845361cc659dc970507ad.properties:900:application/unknown:1
 b:texts/intros.properties:texts/intros-7483254b0eb8a0f48b27e9553dfcefcf.properties:93:application/unknown:1
-t:assets.txt:assets-228a81807a7883335c8438bbc62ed76e.txt:519:text/plain:1
+t:assets.txt:assets-6292fc17957d0b5badad503800cec120.txt:523:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
 a:sounds/confirmation_3.ogg:sounds/confirmation_3-41a03cd6b80886d0beaa6045d45b4bed.ogg:9535:audio/ogg:1
@@ -26,7 +26,7 @@ t:graphics/chakra_petch_64.fnt:graphics/chakra_petch_64-0a4b25e247e94d9acff98e9c
 t:graphics/chakra_petch_58.fnt:graphics/chakra_petch_58-5ef956bed50bb3dd342382117ec1fd2c.fnt:11131:application/unknown:1
 i:libgdx.png:libgdx-3708f33d27b8977682d1bc8504e6a821.png:2458:image/png:1
 d:music:music:0:application/unknown:1
-a:music/in_the_club.ogg:music/in_the_club-5c8464ed0a5f67299f52ed8b140e39a6.ogg:1270246:audio/ogg:1
+a:music/escape_the_grid.ogg:music/escape_the_grid-1664aa1220e5ac544d65cf292c14fbe3.ogg:2767951:audio/ogg:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:particles.fragment-b90524761fdf09b0a836056d590c30b8.glsl:820:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:particles.vertex-f25b8b2fae10b9bfa09bfdd484923148.glsl:2886:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:default.fragment-e1c018bd48044c8b67c7bbc53145e540.glsl:5874:application/unknown:1
