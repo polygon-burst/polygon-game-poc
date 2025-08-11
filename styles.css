@@ -13,6 +13,7 @@ body {
 p { padding: 4px 0; }
 
 a {   
+  height: 32px;
   margin: 16px;
   padding: 16px;
   color: #9fd3ff;
@@ -40,7 +41,7 @@ a {
 }
 
 #donate-button {
-  height: 32px;
+  height: 40px;
   border: none;
   border-radius: 4px;
   padding: 16px;
