@@ -12,8 +12,9 @@ body {
 
 p { padding: 4px 0; }
 
-a { 
-  margin: 8px;
+a {   
+  margin: 16px;
+  padding: 16px;
   color: #9fd3ff;
 }
 
@@ -42,7 +43,7 @@ a {
   height: 32px;
   border: none;
   border-radius: 4px;
-  padding: 8px;
+  padding: 16px;
   background-color: #9fd3ff;
   font-size: 17px;  
   cursor: pointer;
