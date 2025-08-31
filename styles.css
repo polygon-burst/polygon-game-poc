@@ -12,11 +12,6 @@ body {
 
 p { padding: 4px 0; }
 
-a { 
-  padding: 0px;
-  color: #9fd3ff; 
-}
-
 #body-div { 
   width: 1280px; 
   margin: 0 auto; 
@@ -52,14 +47,14 @@ a {
   height: 36px;
   border: none;
   border-radius: 4px;
-  margin: 4px 0px 4px 0px;
-  padding: 4px 12px 4px 12px;
+  margin: 4px 0;
+  padding: 4px 12px;
   background-color: #18181c;
   color: #9fd3ff; 
   font-size: 17px;  
   text-decoration: underline;
   cursor: pointer;
-  transition-duration: 1.0s;
+  transition-duration: 0.25s;
 }
 
 #download-button:hover {
