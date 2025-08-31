@@ -28,7 +28,7 @@ button {
 
 button:hover {
   background-color: #9fd3ff;
-  color: #000000; 
+  color: #18181c; 
   text-decoration: none;
 }
 
@@ -56,6 +56,6 @@ button:hover {
 #donate-button {
   padding: 4px 12px;
   background-color: #9fd3ff;
-  color: #000000;
+  color: #18181c;
   text-decoration: none;
 }
