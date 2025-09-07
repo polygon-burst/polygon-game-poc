@@ -1,7 +1,7 @@
-graphics/alpha_prota_54.fnt
 graphics/alpha_prota_64.fnt
+graphics/chakra_petch_54.fnt
 graphics/chakra_petch_58.fnt
-graphics/chakra_petch_64.fnt
+graphics/chakra_petch_62.fnt
 graphics/textures.atlas
 graphics/textures.png
 libgdx.png
@@ -18,5 +18,6 @@ sounds/confirmation_3.ogg
 sounds/ka50_gun_0.ogg
 sounds/ka50_gun_1.ogg
 sounds/ufo_flight.ogg
-texts/guide.properties
-texts/intros.properties
+texts/episodes_pages.properties
+texts/guide_pages.properties
+texts/main_menu.properties
