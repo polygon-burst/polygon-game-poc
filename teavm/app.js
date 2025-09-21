@@ -4472,9 +4472,9 @@ otp_Platform_lookupClass = var$1 => {
         case "com.badlogic.gdx.graphics.glutils.GLFrameBuffer$FrameBufferRenderBufferAttachmentSpec": cbggg_GLFrameBuffer$FrameBufferRenderBufferAttachmentSpec.$clinit(); return cbggg_GLFrameBuffer$FrameBufferRenderBufferAttachmentSpec;
         case "com.badlogic.gdx.graphics.glutils.GLFrameBuffer$FrameBufferTextureAttachmentSpec": cbggg_GLFrameBuffer$FrameBufferTextureAttachmentSpec.$clinit(); return cbggg_GLFrameBuffer$FrameBufferTextureAttachmentSpec;
         case "java.text.AttributedString": jt_AttributedString.$clinit(); return jt_AttributedString;
-        case "java.nio.charset.impl.Iso8859Decoder": jnci_Iso8859Decoder.$clinit(); return jnci_Iso8859Decoder;
-        case "java.nio.charset.impl.UTF16Decoder": jnci_UTF16Decoder.$clinit(); return jnci_UTF16Decoder;
         case "java.nio.charset.impl.AsciiDecoder": jnci_AsciiDecoder.$clinit(); return jnci_AsciiDecoder;
+        case "java.nio.charset.impl.UTF16Decoder": jnci_UTF16Decoder.$clinit(); return jnci_UTF16Decoder;
+        case "java.nio.charset.impl.Iso8859Decoder": jnci_Iso8859Decoder.$clinit(); return jnci_Iso8859Decoder;
         case "java.lang.ArrayIndexOutOfBoundsException": jl_ArrayIndexOutOfBoundsException.$clinit(); return jl_ArrayIndexOutOfBoundsException;
         case "polygon_burst.survivor01.shapes.BulletShape": pss_BulletShape.$clinit(); return pss_BulletShape;
         case "java.nio.charset.CharsetEncoder": jnc_CharsetEncoder.$clinit(); return jnc_CharsetEncoder;
@@ -47589,19 +47589,28 @@ function jt_AttributedString() {
     a.$text0 = null;
     a.$attributeMap = null;
 }
-let jnci_Iso8859Decoder = $rt_classWithoutFields(jnci_BufferedDecoder),
-jnci_Iso8859Decoder_arrayDecode = ($this, $inArray, $inPos, $inSize, $outArray, $outPos, $outSize, $controller) => {
-    let $result, var$9, var$10, var$11, $b, var$13;
+let jnci_AsciiDecoder = $rt_classWithoutFields(jnci_BufferedDecoder),
+jnci_AsciiDecoder_arrayDecode = ($this, $inArray, $inPos, $inSize, $outArray, $outPos, $outSize, $controller) => {
+    let $result, var$9, var$10, $b, var$12;
     $result = null;
-    while ($inPos < $inSize && $outPos < $outSize) {
-        var$9 = $inArray.data;
-        var$10 = $outArray.data;
-        var$11 = $inPos + 1 | 0;
-        $b = var$9[$inPos] & 255;
-        var$13 = $outPos + 1 | 0;
-        var$10[$outPos] = $b & 65535;
-        $inPos = var$11;
-        $outPos = var$13;
+    a: {
+        while ($inPos < $inSize) {
+            if ($outPos >= $outSize)
+                break a;
+            var$9 = $inArray.data;
+            var$10 = $inPos + 1 | 0;
+            $b = var$9[$inPos] & 255;
+            if ($b & 128) {
+                $result = jnc_CoderResult_malformedForLength(1);
+                $inPos = var$10 + (-1) | 0;
+                break a;
+            }
+            var$9 = $outArray.data;
+            var$12 = $outPos + 1 | 0;
+            var$9[$outPos] = $b & 65535;
+            $inPos = var$10;
+            $outPos = var$12;
+        }
     }
     $controller.$inPosition = $inPos;
     $controller.$outPosition = $outPos;
@@ -47763,28 +47772,19 @@ jnci_UTF16Decoder_decodeBE = ($this, $inArray, $inPos, $inSize, $outArray, $outP
     $controller.$outPosition = $outPos;
     return $result;
 },
-jnci_AsciiDecoder = $rt_classWithoutFields(jnci_BufferedDecoder),
-jnci_AsciiDecoder_arrayDecode = ($this, $inArray, $inPos, $inSize, $outArray, $outPos, $outSize, $controller) => {
-    let $result, var$9, var$10, $b, var$12;
+jnci_Iso8859Decoder = $rt_classWithoutFields(jnci_BufferedDecoder),
+jnci_Iso8859Decoder_arrayDecode = ($this, $inArray, $inPos, $inSize, $outArray, $outPos, $outSize, $controller) => {
+    let $result, var$9, var$10, var$11, $b, var$13;
     $result = null;
-    a: {
-        while ($inPos < $inSize) {
-            if ($outPos >= $outSize)
-                break a;
-            var$9 = $inArray.data;
-            var$10 = $inPos + 1 | 0;
-            $b = var$9[$inPos] & 255;
-            if ($b & 128) {
-                $result = jnc_CoderResult_malformedForLength(1);
-                $inPos = var$10 + (-1) | 0;
-                break a;
-            }
-            var$9 = $outArray.data;
-            var$12 = $outPos + 1 | 0;
-            var$9[$outPos] = $b & 65535;
-            $inPos = var$10;
-            $outPos = var$12;
-        }
+    while ($inPos < $inSize && $outPos < $outSize) {
+        var$9 = $inArray.data;
+        var$10 = $outArray.data;
+        var$11 = $inPos + 1 | 0;
+        $b = var$9[$inPos] & 255;
+        var$13 = $outPos + 1 | 0;
+        var$10[$outPos] = $b & 65535;
+        $inPos = var$11;
+        $outPos = var$13;
     }
     $controller.$inPosition = $inPos;
     $controller.$outPosition = $outPos;
@@ -49892,9 +49892,9 @@ jl_ArithmeticException, "ArithmeticException", 37, jl_RuntimeException, [], 0, 3
 cbggg_GLFrameBuffer$FrameBufferRenderBufferAttachmentSpec, 0, jl_Object, [], 0, 3, 0, 0, 0,
 cbggg_GLFrameBuffer$FrameBufferTextureAttachmentSpec, "GLFrameBuffer$FrameBufferTextureAttachmentSpec", 18, jl_Object, [], 0, 3, 0, 0, 0,
 jt_AttributedString, 0, jl_Object, [], 0, 3, 0, 0, 0,
-jnci_Iso8859Decoder, 0, jnci_BufferedDecoder, [], 0, 3, 0, 0, ["$arrayDecode", function(var_1, var_2, var_3, var_4, var_5, var_6, var_7) { return jnci_Iso8859Decoder_arrayDecode(this, var_1, var_2, var_3, var_4, var_5, var_6, var_7); }],
-jnci_UTF16Decoder, 0, jnci_BufferedDecoder, [], 0, 3, 0, 0, ["$arrayDecode", function(var_1, var_2, var_3, var_4, var_5, var_6, var_7) { return jnci_UTF16Decoder_arrayDecode(this, var_1, var_2, var_3, var_4, var_5, var_6, var_7); }],
 jnci_AsciiDecoder, 0, jnci_BufferedDecoder, [], 0, 3, 0, 0, ["$arrayDecode", function(var_1, var_2, var_3, var_4, var_5, var_6, var_7) { return jnci_AsciiDecoder_arrayDecode(this, var_1, var_2, var_3, var_4, var_5, var_6, var_7); }],
+jnci_UTF16Decoder, 0, jnci_BufferedDecoder, [], 0, 3, 0, 0, ["$arrayDecode", function(var_1, var_2, var_3, var_4, var_5, var_6, var_7) { return jnci_UTF16Decoder_arrayDecode(this, var_1, var_2, var_3, var_4, var_5, var_6, var_7); }],
+jnci_Iso8859Decoder, 0, jnci_BufferedDecoder, [], 0, 3, 0, 0, ["$arrayDecode", function(var_1, var_2, var_3, var_4, var_5, var_6, var_7) { return jnci_Iso8859Decoder_arrayDecode(this, var_1, var_2, var_3, var_4, var_5, var_6, var_7); }],
 jl_ArrayIndexOutOfBoundsException, "ArrayIndexOutOfBoundsException", 37, jl_IndexOutOfBoundsException, [], 0, 3, 0, 0, 0,
 pss_BulletShape, 0, pss_Shape, [], 0, 3, 0, pss_BulletShape_$callClinit, 0,
 jnc_CharsetEncoder, 0, jl_Object, [], 1, 3, 0, 0, 0,

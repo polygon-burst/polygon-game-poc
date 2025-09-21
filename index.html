@@ -1,20 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Polygon Game [ Proof of Concept ] by polygon_burst</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta id="gameViewport" name="viewport" content="width=device-width initial-scale=1">
-    <meta name="keywords" content="arcade, bullet, gamepad, minimalist, nonlinear, prototype, shoot, survivor, time, vector">    
-    <meta property="og:title" content="Polygon Game [ Proof of Concept ] by polygon_burst">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="https://polygon-burst.github.io/polygon-game-poc/">
-    <meta property="og:description" content="Polygon Game [ Proof of Concept ] (made with libGDX).">
-    <meta property="og:image" content="https://polygon-burst.github.io/polygon-game-poc/thumbnail.png">    
-    <link rel="icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra+Petch"/>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    
+<head>
+    <title>gdx-teavm</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <style>
         body {
           justify-content: center;
@@ -62,55 +50,18 @@
           width: 0%;
         }
     </style>
-    
-  </head>
-  <body oncontextmenu="return false" onload="start()>    
-    <div id="body-div"> 
-    
-      <div>
+</head>
+<body oncontextmenu="return false" onload="start()">
+<div>
     <div id="progress">
         <img id="progress-img" src="startup-logo.png">
         <div id="progress-box">
             <div id="progress-bar"></div>
         </div>
     </div>
-    <canvas id="canvas" width="1280" height="800"></canvas>
+    <canvas id="canvas" width="800" height="600"></canvas>
 </div>
-
-      <!--<div id="embed-html"></div>-->
-      <div id="content-div">  
-        <!--<p><button id="donate-button">Kindly donate some Quarters via itch.io</button>
-        . . . or rather just download game without the love. ¯\_(ツ)_/¯</p>-->
-        <h1>WORK IN PROGRESS</h1>               
-        <p><strong>HTML port of PoC Polygon Game (made with LibGDX), Input, GUI and Basic Game Mechanics test.</strong></p>          
-        <p>The Main controls are as follows:<br/>
-        - Mouse Left Button: <strong>Select, Increase</strong><br/>
-        - Mouse Right Button: <strong>Decrease</strong><br/>
-        - Keyboard Arrow Keys / Controller DPad, Analog Stick : <strong>Step, Increase/Decrease</strong><br/>
-        - Keyboard W, S, Space, Enter Key / Controller A, X, R1 Button : <strong>Ok, Increase</strong><br/>
-        - Keyboard A, D, Backspace Key / Controller B, Y, L1 Button : <strong>Cancel, Decrease</strong><br/>
-        - Keyboard Escape Key / Controller Start, Back Button : <strong>Settings, Back</strong></p>
-        <p>Game controls:<br/>
-        - Keyboard Arrow Keys / Controller DPad, Analog Stick : <strong>Movement</strong><br/>
-        - Keyboard W, Space, Enter Key / Controller A, R1 Button : <strong>Increase Gravity Field</strong><br/>
-        - Keyboard A, Backspace Key / Controller B, L1 Button : <strong>Decrease Gravity Field</strong><br/>
-        - Keyboard S Key / Controller X Button : <strong>Toggle Gravity Field</strong><br/>
-        - Keyboard D Key / Controller Y Button : <strong>Reset HPs</strong><br/>
-        - Keyboard Escape Key / Controller Start, Back Button : <strong>Menu</strong></p>        
-        <p>Download desktop version: <br/>
-        <a href=downloads/Polygon_Game_PoC_[WindowsX64].zip><button>Polygon_Game_PoC_[WindowsX64].zip (32MB)</button></a><br/>      
-        <a href=downloads/Polygon_Game_PoC_[LinuxX64].tar.gz><button>Polygon_Game_PoC_[LinuxX64].tar.gz (37MB)</button></a><br/>      
-        <a href=downloads/Polygon_Game_PoC_[JavaV8+].jar><button>Polygon_Game_PoC_[JavaV8+].jar (20MB)</button></a><br/><br/>
-      </div>
-    </div>      
-  </body>
-  <script type="text/javascript" src="html/html.nocache.js"></script>
-  <script type="text/javascript" src="https://static.itch.io/api.js"></script>
-  <script type="text/javascript">
-    Itch.attachBuyButton(document.getElementById("donate-button"), { user: "polygon-burst", game: "polygon-game-poc" });
-  </script>
-  
-  <script>
+<script>
     async function start() {
         main()
     }
@@ -133,19 +84,5 @@
     setTimeout(barUpdater, delay);
 </script>
 <script type="text/javascript" charset="utf-8" src="teavm/app.js"></script>
-  
-  <!--<script>
-    function handleMouseDown(event) {
-      event.preventDefault();
-      event.stopPropagation();
-      window.focus();
-    }
-    function handleMouseUp(event) {
-      event.preventDefault();
-      event.stopPropagation();
-    }    
-    document.addEventListener('contextmenu', event => event.preventDefault());
-    document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
-    document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
-  </script>-->
+</body>
 </html>
