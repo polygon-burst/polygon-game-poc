@@ -3,9 +3,10 @@ d:polygons:polygons:0:application/unknown:1
 b:polygons/f4.polydata:polygons/f4-eeb2ec0d5ad9ca95947c7d742f046ab3.polydata:86:application/unknown:1
 d:texts:texts:0:application/unknown:1
 b:texts/guide_pages.properties:texts/guide_pages-10109160cb2aff42a892120c9ecf336f.properties:902:application/unknown:1
+b:texts/title_section.properties:texts/title_section-3c09e22e31bec9c78b9e1d4a457dcdf3.properties:148:application/unknown:1
 b:texts/episodes_pages.properties:texts/episodes_pages-7173d8865428799f8d6088d474aa47c2.properties:97:application/unknown:1
 b:texts/main_menu.properties:texts/main_menu-5e8c27b7098f1aeee4750dc7f8d3d582.properties:146:application/unknown:1
-t:assets.txt:assets-310545734f8c5810f77b435bb76b469b.txt:565:text/plain:1
+t:assets.txt:assets-deeffbc4306c928c4e541e928bb35419.txt:596:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
 a:sounds/confirmation_3.ogg:sounds/confirmation_3-41a03cd6b80886d0beaa6045d45b4bed.ogg:9535:audio/ogg:1

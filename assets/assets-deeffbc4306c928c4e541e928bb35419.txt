@@ -21,3 +21,4 @@ sounds/ufo_flight.ogg
 texts/episodes_pages.properties
 texts/guide_pages.properties
 texts/main_menu.properties
+texts/title_section.properties
