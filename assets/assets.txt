@@ -4,7 +4,7 @@ b:texts/guide_pages.properties:texts/guide_pages-10109160cb2aff42a892120c9ecf336
 b:texts/title_section.properties:texts/title_section-3c09e22e31bec9c78b9e1d4a457dcdf3.properties:148:application/unknown:1
 b:texts/episodes_pages.properties:texts/episodes_pages-7173d8865428799f8d6088d474aa47c2.properties:97:application/unknown:1
 b:texts/main_menu.properties:texts/main_menu-5e8c27b7098f1aeee4750dc7f8d3d582.properties:146:application/unknown:1
-t:assets.txt:assets-33cc3de0bc5954e037f1445eeced1480.txt:608:text/plain:1
+t:assets.txt:assets-0a856dd57d68340684f753d79be9cee9.txt:695:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
 a:sounds/confirmation_3.ogg:sounds/confirmation_3-41a03cd6b80886d0beaa6045d45b4bed.ogg:9535:audio/ogg:1
@@ -19,8 +19,11 @@ a:sounds/ka50_gun_1.ogg:sounds/ka50_gun_1-c2c05365816e940fd0ea340777443dad.ogg:4
 a:sounds/ah1z_gun_2.ogg:sounds/ah1z_gun_2-ed366a5842ab792501842412202e6a67.ogg:4376:audio/ogg:1
 d:graphics:graphics:0:application/unknown:1
 t:graphics/textures.atlas:graphics/textures-4cf58875e3c2c9e8c37e1b2670789f6e.atlas:287:application/unknown:1
+i:graphics/chakra_petch_62.png:graphics/chakra_petch_62-229c521a39e28fdbe14b6ce9774caa74.png:34411:image/png:1
+i:graphics/chakra_petch_54.png:graphics/chakra_petch_54-e26e24859240a944dc9a341021ed3a0e.png:30001:image/png:1
 t:graphics/chakra_petch_54.fnt:graphics/chakra_petch_54-49b37ab49c1d307a78685e39746dd9d8.fnt:11133:application/unknown:1
 t:graphics/chakra_petch_62.fnt:graphics/chakra_petch_62-770f78a28f5fa80567568c91369a1555.fnt:11133:application/unknown:1
+i:graphics/chakra_petch_58.png:graphics/chakra_petch_58-cb7078a970433ff874e577e7453cb150.png:32116:image/png:1
 b:graphics/chakrapetch_regular.ttf:graphics/chakrapetch_regular-12c7b5f81aa7ab4781673a2a4cf69b5c.ttf:71556:application/unknown:1
 i:graphics/textures.png:graphics/textures-66cb5931353054c88b3ecca5f9f39043.png:200657:image/png:1
 t:graphics/alpha_prota_64.fnt:graphics/alpha_prota_64-bb16ee407d4e0579986421dd8677d1f9.fnt:11014:application/unknown:1
