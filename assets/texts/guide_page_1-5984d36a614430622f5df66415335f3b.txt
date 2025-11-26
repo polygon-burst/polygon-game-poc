@@ -1,0 +1,19 @@
+Game controls:
+
+Keyboard Arrow Keys / Controller DPad, Analog Stick:
+ - Movement
+ 
+Keyboard W, Space, Enter Key / Controller A, R1 Button:
+ - Increase Gravity Field
+ 
+Keyboard A, Backspace Key / Controller B, L1 Button:
+ - Decrease Gravity Field
+ 
+Keyboard S Key / Controller X Button:
+ - Toggle Gravity Field
+ 
+Keyboard D / Controller Y Button:
+ - Reset HPs
+ 
+Keyboard Escape Key / Controller Start, Back Button:
+ - Menu

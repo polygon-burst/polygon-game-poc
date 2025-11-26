@@ -1,0 +1,12 @@
+pages = 4
+
+page_0 = Episode 01
+
+page_1 = Episode 02
+
+page_2 = Episode 03
+
+page_3 = Episode 04
+
+
+
