@@ -6,8 +6,9 @@ t:texts/episode_page_0.txt:texts/episode_page_0-7173d8865428799f8d6088d474aa47c2
 t:texts/episode_page_3.txt:texts/episode_page_3-7173d8865428799f8d6088d474aa47c2.txt:97:text/plain:1
 t:texts/episode_page_1.txt:texts/episode_page_1-7173d8865428799f8d6088d474aa47c2.txt:97:text/plain:1
 t:texts/guide_page_1.txt:texts/guide_page_1-5984d36a614430622f5df66415335f3b.txt:422:text/plain:1
-t:assets.txt:assets-5f1e6da704248f347087c7a7d610300c.txt:650:text/plain:1
+t:assets.txt:assets-7967a82c10e382aaeb47b0ef0c04fb38.txt:742:text/plain:1
 d:sounds:sounds:0:application/unknown:1
+a:sounds/explosion_1.ogg:sounds/explosion_1-606dfb8526ce4b66892f7d2668957fc8.ogg:8743:audio/ogg:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
 a:sounds/confirmation_3.ogg:sounds/confirmation_3-41a03cd6b80886d0beaa6045d45b4bed.ogg:9535:audio/ogg:1
 a:sounds/ah1z_gun_3.ogg:sounds/ah1z_gun_3-44c8d728ebc33994345f3b1da6c72355.ogg:4424:audio/ogg:1
@@ -16,8 +17,11 @@ a:sounds/ufo_flight.ogg:sounds/ufo_flight-e0d13d750693d34d1bd0020461764008.ogg:5
 a:sounds/confirmation_1.ogg:sounds/confirmation_1-4c063b519fe0b43ffb7c6555aa8ad22d.ogg:8968:audio/ogg:1
 a:sounds/confirmation_2.ogg:sounds/confirmation_2-67c1280c7ee58806e09e80900f157354.ogg:14169:audio/ogg:1
 a:sounds/ah1z_gun_1.ogg:sounds/ah1z_gun_1-3eb1e67ff0280ca310287930247383ae.ogg:4420:audio/ogg:1
+a:sounds/explosion_3.ogg:sounds/explosion_3-e81d2988745c9edcf02a8bd1e6e91d8f.ogg:8607:audio/ogg:1
+a:sounds/explosion_2.ogg:sounds/explosion_2-6ef74625c6222cd4536c6da4f7d4f674.ogg:12968:audio/ogg:1
 a:sounds/confirmation_0.ogg:sounds/confirmation_0-ca5d476bb550e2640795745fc5ac8e26.ogg:12391:audio/ogg:1
 a:sounds/ka50_gun_1.ogg:sounds/ka50_gun_1-c2c05365816e940fd0ea340777443dad.ogg:4374:audio/ogg:1
+a:sounds/explosion_0.ogg:sounds/explosion_0-e81d2988745c9edcf02a8bd1e6e91d8f.ogg:8607:audio/ogg:1
 a:sounds/ah1z_gun_2.ogg:sounds/ah1z_gun_2-ed366a5842ab792501842412202e6a67.ogg:4376:audio/ogg:1
 d:graphics:graphics:0:application/unknown:1
 t:graphics/textures.atlas:graphics/textures-f381f643de81d501d3b1fc753809ba74.atlas:358:application/unknown:1

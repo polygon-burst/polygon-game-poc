@@ -16,6 +16,10 @@ sounds/confirmation_0.ogg
 sounds/confirmation_1.ogg
 sounds/confirmation_2.ogg
 sounds/confirmation_3.ogg
+sounds/explosion_0.ogg
+sounds/explosion_1.ogg
+sounds/explosion_2.ogg
+sounds/explosion_3.ogg
 sounds/ka50_gun_0.ogg
 sounds/ka50_gun_1.ogg
 sounds/ufo_flight.ogg
