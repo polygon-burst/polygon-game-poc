@@ -23,9 +23,6 @@ sounds/explosion_3.ogg
 sounds/ka50_gun_0.ogg
 sounds/ka50_gun_1.ogg
 sounds/ufo_flight.ogg
-texts/episode_page_0.txt
-texts/episode_page_1.txt
-texts/episode_page_2.txt
-texts/episode_page_3.txt
 texts/guide_page_0.txt
 texts/guide_page_1.txt
+texts/stage_page_0.txt

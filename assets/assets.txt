@@ -1,12 +1,9 @@
 d:assets:assets:0:application/unknown:1
 d:texts:texts:0:application/unknown:1
-t:texts/episode_page_2.txt:texts/episode_page_2-7173d8865428799f8d6088d474aa47c2.txt:97:text/plain:1
 t:texts/guide_page_0.txt:texts/guide_page_0-de2c74c916c59c10fa89a133b6915636.txt:424:text/plain:1
-t:texts/episode_page_0.txt:texts/episode_page_0-7173d8865428799f8d6088d474aa47c2.txt:97:text/plain:1
-t:texts/episode_page_3.txt:texts/episode_page_3-7173d8865428799f8d6088d474aa47c2.txt:97:text/plain:1
-t:texts/episode_page_1.txt:texts/episode_page_1-7173d8865428799f8d6088d474aa47c2.txt:97:text/plain:1
 t:texts/guide_page_1.txt:texts/guide_page_1-5984d36a614430622f5df66415335f3b.txt:422:text/plain:1
-t:assets.txt:assets-7967a82c10e382aaeb47b0ef0c04fb38.txt:742:text/plain:1
+t:texts/stage_page_0.txt:texts/stage_page_0-2dae77a4094fb24a7cc7fd4df6cc655e.txt:47:text/plain:1
+t:assets.txt:assets-baf1757c91059b83fd2bb4fd14ff5548.txt:665:text/plain:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/explosion_1.ogg:sounds/explosion_1-606dfb8526ce4b66892f7d2668957fc8.ogg:8743:audio/ogg:1
 a:sounds/ah1z_gun_0.ogg:sounds/ah1z_gun_0-82238e943dfe390ffb1c33db6946a456.ogg:4377:audio/ogg:1
