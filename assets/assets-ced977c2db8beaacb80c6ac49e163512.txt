@@ -1,8 +1,8 @@
 graphics/alpha_prota_64.fnt
+graphics/chakra_petch_46.fnt
 graphics/chakra_petch_50.fnt
 graphics/chakra_petch_54.fnt
 graphics/chakra_petch_58.fnt
-graphics/chakra_petch_62.fnt
 graphics/textures.atlas
 graphics/textures.png
 hs_err_pid5501.log
@@ -20,6 +20,12 @@ sounds/explosion_0.ogg
 sounds/explosion_1.ogg
 sounds/explosion_2.ogg
 sounds/explosion_3.ogg
+sounds/howitzer_0.ogg
+sounds/howitzer_1.ogg
+sounds/howitzer_2.ogg
+sounds/howitzer_3.ogg
+sounds/howitzer_4.ogg
+sounds/howitzer_5.ogg
 sounds/ka50_gun_0.ogg
 sounds/ka50_gun_1.ogg
 sounds/ufo_flight.ogg
