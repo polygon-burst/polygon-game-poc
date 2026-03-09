@@ -18,8 +18,8 @@ button {
   border-radius: 4px;
   margin: 4px 0;
   padding: 4px 12px;
-  background-color: #506980;
-  color: #18181c; 
+  background-color: #283540;
+  color: #9fd3ff; 
   font-size: 17px;  
   text-decoration: none;
   cursor: pointer;
@@ -29,7 +29,6 @@ button {
 button:hover {
   background-color: #9fd3ff;
   color: #18181c; 
-  text-decoration: none;
 }
 
 #body-div { 
