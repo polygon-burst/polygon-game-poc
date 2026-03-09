@@ -45,8 +45,8 @@ button:hover {
 }
 
 #embed-html {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
   align-content: center;
   text-align: center;
 }
