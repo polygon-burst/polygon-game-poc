@@ -43,6 +43,11 @@ button:hover {
   align-content: center;
 }
 
+#embed-html {
+  margin: auto;
+  padding: auto;
+}
+
 #content-div {
   margin: 0;
   padding: 0 20px;  
