@@ -41,11 +41,14 @@ button:hover {
   font-family: "Chakra Petch", sans-serif;
   font-size: 17px;   
   text-align: center;
+  align-content: center;
 }
 
 #embed-html {
   margin: auto;
   padding: auto;
+  text-align: center;
+  align-content: center;
 }
 
 #content-div {
