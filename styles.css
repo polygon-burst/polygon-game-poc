@@ -18,12 +18,12 @@ button {
   border-radius: 4px;
   margin: 4px 0;
   padding: 8px 24px;
-  background-color: #202a33;
+  background-color: #182026;
   color: #9fd3ff; 
   font-size: 17px;  
   text-decoration: none;
   cursor: pointer;
-  transition-duration: 0.25s;
+  transition-duration: 0.5s;
 }
 
 button:hover {
