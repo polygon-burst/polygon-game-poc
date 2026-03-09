@@ -54,6 +54,7 @@ button:hover {
 }
 
 #donate-button {
+  margin: auto;
   padding: 4px 12px;
   background-color: #9fd3ff;
   color: #18181c;
