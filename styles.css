@@ -39,13 +39,13 @@ button:hover {
   background-color: #18181c;
   color: #e5f4ff;   
   font-family: "Chakra Petch", sans-serif;
-  font-size: 17px; 
+  font-size: 17px;   
+  text-align: center;
 }
 
 #embed-html {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 #content-div {
