@@ -44,8 +44,8 @@ button:hover {
 }
 
 #embed-html {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
 }
 
 #content-div {
