@@ -35,7 +35,7 @@ button:hover {
   width: 1280px; 
   margin: 0 auto; 
   padding: 0;
-  background-color: #19191d;
+  background-color: #18181c;
   color: #e5f4ff;   
   font-family: "Chakra Petch", sans-serif;
   font-size: 17px; 
@@ -49,5 +49,5 @@ button:hover {
 }
 
 .download-button {
-  background-color: #18181c;
+  background-color: #19191d;
 }
