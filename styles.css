@@ -13,11 +13,11 @@ body {
 p { padding: 4px 0; }
 
 button {
-  height: 44px;
+  height: 36px;
   border: none;
   border-radius: 6px;
   margin: 4px 0;
-  padding: 8px 24px;
+  padding: 4px 12px;
   background-color: #202a33;
   color: #9fd3ff; 
   font-size: 17px;  
@@ -35,7 +35,7 @@ button:hover {
   width: 1280px; 
   margin: 0 auto; 
   padding: 0;
-  background-color: #18181c;
+  background-color: #19191d;
   color: #e5f4ff;   
   font-family: "Chakra Petch", sans-serif;
   font-size: 17px; 
