@@ -7,8 +7,15 @@ graphics/textures.atlas
 graphics/textures.png
 hs_err_pid5501.log
 libgdx.png
+music/abraxas_psy.mod
+music/abyss.s3m
+music/arcade_action.xm
+music/beyond_music.mod
+music/chill_n_relax.mod
+music/moon.xm
 music/nastelbom_electronic.ogg
 music/nastelbom_tech.ogg
+music/oceanic.mod
 sounds/ah1z_gun_0.ogg
 sounds/ah1z_gun_1.ogg
 sounds/ah1z_gun_2.ogg
